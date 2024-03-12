@@ -49,11 +49,7 @@ Valor de retorno: versão binarizada da img_in.'''
 #-------------------------------------------------------------------------------
 
 def rotula(img, largura_min, altura_min, n_pixels_min):
-    cont=1
-    for i in range (len(img)):
-        for j in range(len(img)):
-            if img[i,j]==1:
-                
+               
 
     '''Rotulagem usando flood fill. Marca os objetos da imagem com os valores
 [0.1,0.2,etc].
